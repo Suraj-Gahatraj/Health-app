@@ -1,0 +1,52 @@
+.main-app-container
+{
+    width:100%;
+    margin:0px auto;
+    text-align: center;
+    background:#fff;
+  
+}
+
+.tag-line
+{
+    width:100%;
+    background:#E6E6E6;
+  
+    
+}
+
+.container{
+    width:30%;
+    margin:0px auto;
+  
+    
+}
+
+.app-heading
+{
+    margin:0px;
+    padding-top:100px;
+    color:black;
+    line-height:50px;
+    font-size:50px;
+}
+
+.img-style
+{
+    width:100px;
+    padding:20px;
+}
+
+.track-now
+{
+    padding-bottom:50px;
+}
+.second-scene{
+    margin:0px auto;
+    display: none;
+    
+}
+
+.second-scene .container{
+    width:50%;
+}

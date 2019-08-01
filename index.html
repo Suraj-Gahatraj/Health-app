@@ -4,11 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello Neural Network</h1>
-    <script type="module"  src="Main.js"></script>
+    <div class="main-app-container">
+        
+            
+            <section>
+                <div class="tag-line" id="tag-line">
+                    <div class="container">
+                        <h2 class="app-heading">We have Made Tracking Easy For You</h2>
+                        <img  src="images/calendar_pink.png" class="img-style">
+
+                        <div class="track-now" id="track-now" >
+                                <a href="#" onclick="nextscene()">Track Your Period</a>
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <div class=" second-scene" id="second-scene"> 
+                    <div class="container">
+                        <h2>Mark your Date of first day of your last period</h2>
+                    </div>
+                </div>
+            </section>
+           
+
+    </div>
+
+    <script>
+    
+    function nextscene()
+    {console.log("hello");
+        var sel=document.getElementById("tag-line");
+        sel.style.display="none";
+        var secondscene=document.getElementById("second-scene");
+        
+        secondscene.style.display="block";
+    }
+    </script>
+    
+
+    
 </body>
 </html>
 
