@@ -50,3 +50,59 @@
 .second-scene .container{
     width:50%;
 }
+
+/*style sheet for calendar */
+
+.calendar-container{
+    padding: 10px;
+    width: 210px;
+    height: 240px;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Arial;
+    background-image: linear-gradient(#fff, #d3d3d3);
+    
+}
+
+.calendar-container>div{
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.calendar-month-year{
+    margin: 5px;
+}
+
+.calendar-dates>table>tr>td{
+    padding: 5px;
+}
+
+.date-sel
+{
+    color:red;
+}
+
+.date-sel td:hover{
+    background-color:orange;
+}
+
+.calendar-prev
+{
+    float:left;
+    padding:10px;
+}
+
+.calendar-present
+{
+    float:left;
+    padding:10px;
+}
+
+.calendar-section {
+
+    background: yellow;
+    display: inline-block;
+
+}
