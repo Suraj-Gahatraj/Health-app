@@ -16,7 +16,7 @@
 }
 
 .container{
-    width:30%;
+    width:50%;
     margin:0px auto;
   
     
@@ -102,7 +102,52 @@
 
 .calendar-section {
 
-    background: yellow;
+ 
     display: inline-block;
 
+}
+#change
+{
+    background-color:red;
+}
+
+.util-button
+{
+    margin-top: 20px;
+
+margin-left: 34px;
+}
+
+.util-button a{
+    background: #63ABCF;
+    padding: 14px;
+        padding-right: 14px;
+        padding-left: 14px;
+    padding-left: 7%;
+    text-align: center;
+    padding-right: 7%;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 16px;
+    color: white;
+
+}
+.track-now a{
+    background: #63ABCF;
+    padding: 14px;
+        padding-right: 14px;
+        padding-left: 14px;
+    padding-left: 7%;
+    text-align: center;
+    padding-right: 7%;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 16px;
+    color: white;
+
+}
+
+.third-scene
+{
+    display:none;
 }
